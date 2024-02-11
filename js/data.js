@@ -147,7 +147,7 @@ const infoList = [
     desc: ''
   },
   {
-    name: '<POP + 미꿀미꿀>',
+    name: '<팝 + 미꿀미꿀>',
     desc: ''
   },
   {
