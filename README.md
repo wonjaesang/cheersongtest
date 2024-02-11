@@ -1,4 +1,2 @@
-# IFBOP
-If I were body part MBTI test
+# Cheersongtest
 
-ifbop.netlify.app
