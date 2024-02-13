@@ -5,7 +5,7 @@ function setShare(){
   var resultAlt = resultImg.firstElementChild.alt;
   const shareTitle = '나를 나타내는 포스텍 응원가 심리 테스트 결과';
   const shareDes = infoList[resultAlt].name;
-  const shareImage = url + 'img/image-' + resultAlt + '.png';
+  const shareImage = url + 'img/image-' + resultAlt + '.jpg';
   const shareURL = url + 'page/result-' + resultAlt + '.html';
   Kakao.Link.sendDefault({
   objectType: 'feed',
@@ -35,7 +35,7 @@ function twitterShare() {
   var resultAlt = resultImg.firstElementChild.alt;
   const shareTitle = '나를 나타내는 포스텍 응원가 심리 테스트 결과';
   const shareDes = infoList[resultAlt].name;
-  const shareImage = url + 'img/image-' + resultAlt + '.png';
+  const shareImage = url + 'img/image-' + resultAlt + '.jpg';
   const shareURL = url + 'page/result-' + resultAlt + '.html';
   var sendText = "나를 나타내는 포스텍 응원가 심리 테스트 결과"; // 전달할 텍스트
   var sendUrl = url + 'page/result-' + resultAlt + '.html'; // 전달할 URL
@@ -47,7 +47,7 @@ function facebookShare() {
   var resultAlt = resultImg.firstElementChild.alt;
   const shareTitle = '나를 나타내는 포스텍 응원가 심리 테스트 결과';
   const shareDes = infoList[resultAlt].name;
-  const shareImage = url + 'img/image-' + resultAlt + '.png';
+  const shareImage = url + 'img/image-' + resultAlt + '.jpg';
   const shareURL = url + 'page/result-' + resultAlt + '.html';
   var sendUrl = url + 'page/result-' + resultAlt + '.html'; // 전달할 URL
   window.open("http://www.facebook.com/sharer/sharer.php?u=" + sendUrl);
