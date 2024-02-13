@@ -15,7 +15,7 @@ function setShare(){
     imageUrl: shareImage,
     link: {
       mobileWebUrl: shareURL,
-      webUrl: shareURL,
+      webUrl: shareURL
     },
   },
   buttons: [
@@ -23,7 +23,7 @@ function setShare(){
       title: '결과확인하기',
       link: {
         mobileWebUrl: shareURL,
-        webUrl: shareURL,
+        webUrl: shareURL
       },
     },
   ],
