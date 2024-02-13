@@ -107,67 +107,67 @@ const qnaList = [
 
 const infoList = [
   {
-    name: '<이 순간 하나되어 + 별이 되어>',
+    name: '"이 순간 하나되어 + 별이 되어"',
     desc: ''
   },
   {
-    name: '<이 순간 하나되어 + I Love Postech>',
+    name: '"이 순간 하나되어 + I Love Postech"',
     desc: ''
   },
   {
-    name: '<이 순간 하나되어 + 미꿀미꿀>',
+    name: '"이 순간 하나되어 + 미꿀미꿀"',
     desc: ''
   },
   {
-    name: '<이 순간 하나되어 + 넙죽이 사냥>',
+    name: '"이 순간 하나되어 + 넙죽이 사냥"',
     desc: ''
   },
   {
-    name: '<승리의 서곡 + 별이 되어>',
+    name: '"승리의 서곡 + 별이 되어"',
     desc: ''
   },
   {
-    name: '<승리의 서곡 +  I Love Postech>',
+    name: '"승리의 서곡 +  I Love Postech"',
     desc: ''
   },
   {
-    name: '<승리의 서곡 + 미꿀미꿀>',
+    name: '"승리의 서곡 + 미꿀미꿀"',
     desc: ''
   },
   {
-    name: '<승리의 서곡 + 넙죽이 사냥>',
+    name: '"승리의 서곡 + 넙죽이 사냥"',
     desc: ''
   },
   {
-    name: '<Postech Oh Postech + 별이 되어>',
+    name: '"Postech Oh Postech + 별이 되어"',
     desc: ''
   },
   {
-    name: '<Postech Oh Postech + I Love Postech>',
+    name: '"Postech Oh Postech + I Love Postech"',
     desc: ''
   },
   {
-    name: '<Postech Oh Postech + 미꿀미꿀>',
+    name: '"Postech Oh Postech + 미꿀미꿀"',
     desc: ''
   },
   {
-    name: '<Postech Oh Postech + 넙죽이 사냥>',
+    name: '"Postech Oh Postech + 넙죽이 사냥"',
     desc: ''
   },
    {
-    name: '<비상+ 별이 되어>',
+    name: '"비상+ 별이 되어"',
     desc: ''
   },
   {
-    name: '<비상 + I Love Postech>',
+    name: '"비상 + I Love Postech"',
     desc: ''
   },
   {
-    name: '<비상 + 미꿀미꿀>',
+    name: '"비상 + 미꿀미꿀"',
     desc: ''
   },
   {
-    name: '<비상 + 넙죽이 사냥>',
+    name: '"비상 + 넙죽이 사냥"',
     desc: ''
   }
 ]
