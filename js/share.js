@@ -7,27 +7,29 @@ function setShare(){
   const shareDes = infoList[resultAlt].name;
   const shareImage = url + 'img/image-' + resultAlt + '.jpg';
   const shareURL = url + 'page/result-' + resultAlt + '.html';
-  Kakao.Link.sendDefault({
+
+  Kakao.Share.createDefaultButton({
+  container: '#kakaotalk-sharing-btn',
   objectType: 'feed',
   content: {
     title: shareTitle,
     description: shareDes,
-    imageUrl: shareImage,
+    imageUrl:shareImage,
     link: {
-      mobileWebUrl: shareURL,
-      webUrl: shareURL
-      },
+      mobileWebUrl:shareURL,
+      webUrl: shareURL,
     },
-    buttons: [
+  },
+  buttons: [
     {
       title: '결과확인하기',
       link: {
         mobileWebUrl: shareURL,
-        webUrl: shareURL
-        },
+        webUrl: shareURL,
       },
-    ]
-  });
+    },
+  ],
+});
 }
 
 function twitterShare() {
