@@ -52,7 +52,3 @@ function facebookShare() {
   var sendUrl = url + 'page/result-' + resultAlt + '.html'; // 전달할 URL
   window.open("http://www.facebook.com/sharer/sharer.php?u=" + sendUrl);
 }
-
-function apply() {
-  window.open("https://forms.gle/Avcb3AnfeuDH5AYNA");
-}
