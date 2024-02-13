@@ -139,19 +139,19 @@ const infoList = [
     desc: ''
   },
   {
-    name: '<POP + 별이 되어>',
+    name: '<Postech Oh Postech + 별이 되어>',
     desc: ''
   },
   {
-    name: '<POP + I Love Postech>',
+    name: '<Postech Oh Postech + I Love Postech>',
     desc: ''
   },
   {
-    name: '<POP + 미꿀미꿀>',
+    name: '<Postech Oh Postech + 미꿀미꿀>',
     desc: ''
   },
   {
-    name: '<POP + 넙죽이 사냥>',
+    name: '<Postech Oh Postech + 넙죽이 사냥>',
     desc: ''
   },
    {
