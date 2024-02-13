@@ -1,8 +1,9 @@
 body{
-  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/bg.png');
+  background-image: url('../img/bg.png');
   backgorund-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  opacity: 0.5;
   background-color: #c80150;
   
 }
