@@ -55,10 +55,15 @@
   height: 60px;
   width: 180px;
   background-color: #c80150;
-  font-size: 20px;
+  font-size: 30px;
   border: 0px;
   border-radius: 20px;
   cursor: pointer;
+}
+
+.apply:hover, .apply:focus {
+  background-color: whitesmoke;
+  color: #c80150;
 }
 
 .gohome{
