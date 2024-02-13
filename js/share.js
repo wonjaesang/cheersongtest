@@ -7,16 +7,14 @@ function setShare(){
   const shareDes = infoList[resultAlt].name;
   const shareImage = url + 'img/image-' + resultAlt + '.jpg';
   const shareURL = url + 'page/result-' + resultAlt + '.html';
-
-  Kakao.Share.createDefaultButton({
-  container: '#kakaotalk-sharing-btn',
+  Kakao.Share.sendDefault({
   objectType: 'feed',
   content: {
     title: shareTitle,
     description: shareDes,
-    imageUrl:shareImage,
+    imageUrl: shareImage,
     link: {
-      mobileWebUrl:shareURL,
+      mobileWebUrl: shareURL,
       webUrl: shareURL,
     },
   },
