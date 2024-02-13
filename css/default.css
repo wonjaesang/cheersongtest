@@ -1,6 +1,6 @@
 body{
   background-image: url('../img/bg.png');
-  backgorund-size: contain;
+  backgorund-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #c80150;
